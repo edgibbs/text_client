@@ -1,4 +1,5 @@
 defmodule TextClient.Player do
+  @console Application.get_env(:text_client, :console, Kernel)
 
   alias TextClient.{State, Summary, Prompter, Mover}
 
@@ -34,18 +35,6 @@ defmodule TextClient.Player do
       |> play()
   end
 
-  def display(game) do
-    game
-  end
-
-  def prompt(game) do
-    game
-  end
-
-  def make_move(game) do
-    game
-  end
-
   defp continue_with_message(game, message) do
     IO.puts(message)
     continue(game)
@@ -53,6 +42,6 @@ defmodule TextClient.Player do
 
   defp exit_with_message(message) do
     IO.puts(message)
-    exit(:normal)
+    @console.exit(:normal)
   end
 end

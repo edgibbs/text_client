@@ -8,6 +8,12 @@ defmodule TextClient.Interact do
     |> Player.play()
   end
 
+  def start(word) do
+    Hangman.new_game(word)
+    |> setup_state()
+    |> Player.play()
+  end
+
   def play(state) do
     play(state)
   end
