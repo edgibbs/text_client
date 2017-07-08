@@ -8,6 +8,7 @@ defmodule TextClient.InteractTest do
 
     Word so far: _
     Guess left: 7
+    Letters used: 
 
     Your guess: You WON!
     EXIT
