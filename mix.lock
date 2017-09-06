@@ -1,2 +1,2 @@
-%{"dictionary": {:git, "https://github.com/edgibbs/dictionary.git", "ad79f38248f352dffa5432bee4cbd807e71b8e74", []},
-  "hangman": {:git, "https://github.com/edgibbs/hangman.git", "b532ab7f8bf2bbff49acdf90b59b353a27200503", []}}
+%{"dictionary": {:git, "https://github.com/edgibbs/dictionary.git", "8d4c4398d54a8c4daf37a1612fd8b8aec102051d", []},
+  "hangman": {:git, "https://github.com/edgibbs/hangman.git", "6babb4c755f9f7f7b0338af89c303500ee60ec55", []}}
